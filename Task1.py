@@ -1,7 +1,5 @@
-int1=int(input('Enter the first number :'))
-int2=int(input('Enter the second number :'))
-
-print('Addition',int1+int2)
-print('Subtraction',int1-int2)
-print('Multiplication',int1*int2)
-print('Division',int1/int2)
+n=int(input("Enter number: "))
+if n/2==0:
+    print(n, " is an even number.")
+elif n/2!=0:
+    print(n, " is an odd number.")
